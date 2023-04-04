@@ -10,9 +10,9 @@ const [color, setColor]=useState("");
 
 	return (
 		<div className="luz-trafico rounded-3 d-flex flex-column justify-content-evenly align-items-center">
-			<div onClick = {()=>setColor("luz-roja")} className={`${color=="luz-roja"?"glow":""} luz-roja light rounded-circle`}></div>
-			<div onClick = {()=>setColor("luz-amarilla")} className={`${color=="luz-amarilla"?"glow":""} luz-amarilla light rounded-circle`}></div>
-			<div onClick = {()=>setColor("luz-verde")} className={`${color=="luz-verde"?"glow":""} luz-verde light rounded-circle`}></div>
+			<div onClick = {()=>setColor("luz-roja")} className={`${color=="luz-roja"?"glow":""} luz-roja ligth rounded-circle`}></div>
+			<div onClick = {()=>setColor("luz-amarilla")} className={`${color=="luz-amarilla"?"glow":""} luz-amarilla ligth rounded-circle`}></div>
+			<div onClick = {()=>setColor("luz-verde")} className={`${color=="luz-verde"?"glow":""} luz-verde ligth rounded-circle`}></div>
 		</div>
 	);
 };
