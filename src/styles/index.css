@@ -10,3 +10,32 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.luz-trafico{
+    width: 200px;
+    height: 170px;
+    background-color: black;
+    border-radius: 15px;
+
+}
+.luz-roja{
+    background: red;
+    width: 130px;
+    height:180px;
+}
+
+.luz-amarilla{
+    background: yellow;
+    width: 130px;
+    height:180px;
+}
+
+.luz-verde{
+    background: green;
+    width: 130px;
+    height:180px;
+}
+
+.glow{
+    box-shadow: 2px -1px 41px 39px rgba(217, 210, 35,0.3);
+    opacity: 1 !important;
+}
